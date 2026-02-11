@@ -11,6 +11,7 @@ import sys
 import os
 
 from models.shufflenetv2 import ShuffleNetV2
+from optimizers.madam_fp import Madam
 
 torch.manual_seed(42)
 torch.cuda.manual_seed(42)
@@ -38,9 +39,11 @@ parser.add_argument("--device", type=str, default="cuda:0", help="Device to use 
 parser.add_argument("--log_interval", type=int, default=10, help="Batches between logging training status (default: 10)")
 parser.add_argument("--batch_size", type=int, default=128, help="Batch size for training (default: 128)")
 parser.add_argument("--epochs", type=int, default=100, help="Number of training epochs (default: 100)")
+parser.add_argument("--optimizer", type=str, default="sgd", choices=["sgd", "madam"], help="Optimizer to use (default: sgd)")
 parser.add_argument("--lr", type=float, default=0.1, help="Learning rate (default: 0.1)")
 parser.add_argument("--momentum", type=float, default=0.9, help="SGD momentum (default: 0.9)")
 parser.add_argument("--weight_decay", type=float, default=1e-4, help="Weight decay (default: 1e-4)")
+parser.add_argument("--beta", type=float, default=0.999, help="Madam beta parameter (default: 0.9)")
 args = parser.parse_args()
 
 log_filename = f"shufflenetv2_fp_train_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
@@ -70,6 +73,7 @@ epochs = args.epochs
 lr = args.lr
 momentum = args.momentum
 weight_decay = args.weight_decay
+beta = args.beta
 
 mean = (0.49139961600303649902, 0.48215851187705993652, 0.44653093814849853516)
 std = (0.24703231453895568848, 0.24348483979701995850, 0.26158782839775085449)
@@ -105,14 +109,20 @@ test_loader = torch.utils.data.DataLoader(
     shuffle=False,
 )
 
-model = ShuffleNetV2(10, 3, dtype=dtype, device=device)
+model = ShuffleNetV2(10, 3, madam=(args.optimizer == "madam"), dtype=dtype, device=device)
 
 criterion = nn.NLLLoss()
-optimizer = SGD(model.parameters(), lr=lr, momentum=momentum, weight_decay=weight_decay)
+if args.optimizer == "sgd":
+    optimizer = SGD(model.parameters(), lr=lr, momentum=momentum, weight_decay=weight_decay)
+elif args.optimizer == "madam":
+    optimizer = Madam(model.parameters(), lr=lr, beta=beta)
 scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=[50, 75], gamma=0.1)
 
 logger.info(f"Training ShuffleNetV2 on CIFAR-10 with FP (dtype={dtype}) on device {device}")
-logger.info(f"Hyperparameters: epochs={epochs}, batch_size={batch_size}, lr={lr}, momentum={momentum}, weight_decay={weight_decay}")
+if args.optimizer == "sgd":
+    logger.info(f"Hyperparameters: epochs={epochs}, batch_size={batch_size}, lr={lr}, momentum={momentum}, weight_decay={weight_decay}")
+elif args.optimizer == "madam":
+    logger.info(f"Hyperparameters: epochs={epochs}, batch_size={batch_size}, lr={lr}, beta={beta}")
 
 history = []
 best_val_acc = -1.0
