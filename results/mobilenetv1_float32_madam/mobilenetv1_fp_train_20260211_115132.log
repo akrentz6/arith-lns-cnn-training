@@ -1,0 +1,541 @@
+2026-02-11 11:51:39,126 | INFO | Training MobileNetV1 on CIFAR-10 with FP (dtype=torch.float32) on device cuda:0
+2026-02-11 11:51:39,126 | INFO | Hyperparameters: epochs=100, batch_size=128, lr=0.01, beta=0.999
+2026-02-11 11:51:47,340 | INFO | Batch 100 | Loss: 2.0546 | Correct: 23/128 | Elapsed Time: 8.21s
+2026-02-11 11:51:54,473 | INFO | Batch 200 | Loss: 1.9181 | Correct: 27/128 | Elapsed Time: 7.13s
+2026-02-11 11:52:01,599 | INFO | Batch 300 | Loss: 1.6887 | Correct: 47/128 | Elapsed Time: 7.13s
+2026-02-11 11:52:08,131 | INFO | Epoch [1/100] - Loss: 1.8940 | Correct: 14158/50000 (28.32%, 29.00s)
+2026-02-11 11:52:10,681 | INFO | Validation - Loss: 1.5971 | Correct: 4140/10000 (41.40%, 2.55s)
+2026-02-11 11:52:10,740 | INFO | New best model saved at epoch 1 with Top1 Acc: 41.40%
+2026-02-11 11:52:17,921 | INFO | Batch 100 | Loss: 1.4684 | Correct: 55/128 | Elapsed Time: 7.18s
+2026-02-11 11:52:25,110 | INFO | Batch 200 | Loss: 1.4621 | Correct: 54/128 | Elapsed Time: 7.19s
+2026-02-11 11:52:32,237 | INFO | Batch 300 | Loss: 1.4204 | Correct: 47/128 | Elapsed Time: 7.13s
+2026-02-11 11:52:38,711 | INFO | Epoch [2/100] - Loss: 1.5575 | Correct: 21164/50000 (42.33%, 27.97s)
+2026-02-11 11:52:41,310 | INFO | Validation - Loss: 1.4588 | Correct: 4772/10000 (47.72%, 2.60s)
+2026-02-11 11:52:41,389 | INFO | New best model saved at epoch 2 with Top1 Acc: 47.72%
+2026-02-11 11:52:48,577 | INFO | Batch 100 | Loss: 1.4963 | Correct: 67/128 | Elapsed Time: 7.19s
+2026-02-11 11:52:55,713 | INFO | Batch 200 | Loss: 1.4308 | Correct: 56/128 | Elapsed Time: 7.14s
+2026-02-11 11:53:02,816 | INFO | Batch 300 | Loss: 1.4690 | Correct: 66/128 | Elapsed Time: 7.10s
+2026-02-11 11:53:09,280 | INFO | Epoch [3/100] - Loss: 1.3955 | Correct: 24546/50000 (49.09%, 27.89s)
+2026-02-11 11:53:11,873 | INFO | Validation - Loss: 1.3061 | Correct: 5368/10000 (53.68%, 2.59s)
+2026-02-11 11:53:11,923 | INFO | New best model saved at epoch 3 with Top1 Acc: 53.68%
+2026-02-11 11:53:19,074 | INFO | Batch 100 | Loss: 1.3325 | Correct: 66/128 | Elapsed Time: 7.15s
+2026-02-11 11:53:26,195 | INFO | Batch 200 | Loss: 1.3255 | Correct: 70/128 | Elapsed Time: 7.12s
+2026-02-11 11:53:33,264 | INFO | Batch 300 | Loss: 1.2708 | Correct: 70/128 | Elapsed Time: 7.07s
+2026-02-11 11:53:39,728 | INFO | Epoch [4/100] - Loss: 1.2622 | Correct: 27206/50000 (54.41%, 27.80s)
+2026-02-11 11:53:42,317 | INFO | Validation - Loss: 1.2336 | Correct: 5531/10000 (55.31%, 2.59s)
+2026-02-11 11:53:42,387 | INFO | New best model saved at epoch 4 with Top1 Acc: 55.31%
+2026-02-11 11:53:49,522 | INFO | Batch 100 | Loss: 0.9958 | Correct: 80/128 | Elapsed Time: 7.14s
+2026-02-11 11:53:56,643 | INFO | Batch 200 | Loss: 1.1591 | Correct: 73/128 | Elapsed Time: 7.12s
+2026-02-11 11:54:03,767 | INFO | Batch 300 | Loss: 1.1493 | Correct: 79/128 | Elapsed Time: 7.12s
+2026-02-11 11:54:10,251 | INFO | Epoch [5/100] - Loss: 1.1562 | Correct: 29234/50000 (58.47%, 27.86s)
+2026-02-11 11:54:12,855 | INFO | Validation - Loss: 1.0928 | Correct: 6073/10000 (60.73%, 2.60s)
+2026-02-11 11:54:12,913 | INFO | New best model saved at epoch 5 with Top1 Acc: 60.73%
+2026-02-11 11:54:20,067 | INFO | Batch 100 | Loss: 0.9890 | Correct: 90/128 | Elapsed Time: 7.15s
+2026-02-11 11:54:27,201 | INFO | Batch 200 | Loss: 1.0657 | Correct: 82/128 | Elapsed Time: 7.13s
+2026-02-11 11:54:34,290 | INFO | Batch 300 | Loss: 1.0159 | Correct: 81/128 | Elapsed Time: 7.09s
+2026-02-11 11:54:40,715 | INFO | Epoch [6/100] - Loss: 1.0583 | Correct: 31136/50000 (62.27%, 27.80s)
+2026-02-11 11:54:43,265 | INFO | Validation - Loss: 1.0578 | Correct: 6290/10000 (62.90%, 2.55s)
+2026-02-11 11:54:43,336 | INFO | New best model saved at epoch 6 with Top1 Acc: 62.90%
+2026-02-11 11:54:50,494 | INFO | Batch 100 | Loss: 1.1166 | Correct: 73/128 | Elapsed Time: 7.16s
+2026-02-11 11:54:57,602 | INFO | Batch 200 | Loss: 0.8773 | Correct: 89/128 | Elapsed Time: 7.11s
+2026-02-11 11:55:04,739 | INFO | Batch 300 | Loss: 0.7888 | Correct: 93/128 | Elapsed Time: 7.14s
+2026-02-11 11:55:11,270 | INFO | Epoch [7/100] - Loss: 0.9833 | Correct: 32477/50000 (64.95%, 27.93s)
+2026-02-11 11:55:13,847 | INFO | Validation - Loss: 0.9775 | Correct: 6536/10000 (65.36%, 2.58s)
+2026-02-11 11:55:13,927 | INFO | New best model saved at epoch 7 with Top1 Acc: 65.36%
+2026-02-11 11:55:21,114 | INFO | Batch 100 | Loss: 0.7687 | Correct: 90/128 | Elapsed Time: 7.19s
+2026-02-11 11:55:28,250 | INFO | Batch 200 | Loss: 0.9275 | Correct: 89/128 | Elapsed Time: 7.14s
+2026-02-11 11:55:35,357 | INFO | Batch 300 | Loss: 0.8124 | Correct: 93/128 | Elapsed Time: 7.11s
+2026-02-11 11:55:41,874 | INFO | Epoch [8/100] - Loss: 0.9135 | Correct: 33916/50000 (67.83%, 27.95s)
+2026-02-11 11:55:44,428 | INFO | Validation - Loss: 0.9777 | Correct: 6591/10000 (65.91%, 2.55s)
+2026-02-11 11:55:44,502 | INFO | New best model saved at epoch 8 with Top1 Acc: 65.91%
+2026-02-11 11:55:51,662 | INFO | Batch 100 | Loss: 0.8728 | Correct: 83/128 | Elapsed Time: 7.16s
+2026-02-11 11:55:58,721 | INFO | Batch 200 | Loss: 0.8862 | Correct: 83/128 | Elapsed Time: 7.06s
+2026-02-11 11:56:05,793 | INFO | Batch 300 | Loss: 0.6952 | Correct: 100/128 | Elapsed Time: 7.07s
+2026-02-11 11:56:12,302 | INFO | Epoch [9/100] - Loss: 0.8602 | Correct: 34778/50000 (69.56%, 27.80s)
+2026-02-11 11:56:14,894 | INFO | Validation - Loss: 0.9504 | Correct: 6681/10000 (66.81%, 2.59s)
+2026-02-11 11:56:14,961 | INFO | New best model saved at epoch 9 with Top1 Acc: 66.81%
+2026-02-11 11:56:22,122 | INFO | Batch 100 | Loss: 0.6131 | Correct: 106/128 | Elapsed Time: 7.16s
+2026-02-11 11:56:29,234 | INFO | Batch 200 | Loss: 0.8377 | Correct: 93/128 | Elapsed Time: 7.11s
+2026-02-11 11:56:36,355 | INFO | Batch 300 | Loss: 1.1102 | Correct: 81/128 | Elapsed Time: 7.12s
+2026-02-11 11:56:42,827 | INFO | Epoch [10/100] - Loss: 0.8073 | Correct: 35702/50000 (71.40%, 27.87s)
+2026-02-11 11:56:45,392 | INFO | Validation - Loss: 0.8482 | Correct: 7055/10000 (70.55%, 2.56s)
+2026-02-11 11:56:45,474 | INFO | New best model saved at epoch 10 with Top1 Acc: 70.55%
+2026-02-11 11:56:52,643 | INFO | Batch 100 | Loss: 0.8146 | Correct: 90/128 | Elapsed Time: 7.17s
+2026-02-11 11:56:59,765 | INFO | Batch 200 | Loss: 0.6632 | Correct: 102/128 | Elapsed Time: 7.12s
+2026-02-11 11:57:06,925 | INFO | Batch 300 | Loss: 0.7460 | Correct: 95/128 | Elapsed Time: 7.16s
+2026-02-11 11:57:13,404 | INFO | Epoch [11/100] - Loss: 0.7718 | Correct: 36400/50000 (72.80%, 27.93s)
+2026-02-11 11:57:15,971 | INFO | Validation - Loss: 0.8236 | Correct: 7113/10000 (71.13%, 2.57s)
+2026-02-11 11:57:16,052 | INFO | New best model saved at epoch 11 with Top1 Acc: 71.13%
+2026-02-11 11:57:23,159 | INFO | Batch 100 | Loss: 0.6540 | Correct: 97/128 | Elapsed Time: 7.11s
+2026-02-11 11:57:30,291 | INFO | Batch 200 | Loss: 0.8183 | Correct: 95/128 | Elapsed Time: 7.13s
+2026-02-11 11:57:37,401 | INFO | Batch 300 | Loss: 0.5244 | Correct: 108/128 | Elapsed Time: 7.11s
+2026-02-11 11:57:43,868 | INFO | Epoch [12/100] - Loss: 0.7352 | Correct: 37010/50000 (74.02%, 27.82s)
+2026-02-11 11:57:46,465 | INFO | Validation - Loss: 0.7545 | Correct: 7419/10000 (74.19%, 2.60s)
+2026-02-11 11:57:46,530 | INFO | New best model saved at epoch 12 with Top1 Acc: 74.19%
+2026-02-11 11:57:53,636 | INFO | Batch 100 | Loss: 0.6130 | Correct: 101/128 | Elapsed Time: 7.11s
+2026-02-11 11:58:00,753 | INFO | Batch 200 | Loss: 0.8960 | Correct: 89/128 | Elapsed Time: 7.12s
+2026-02-11 11:58:07,843 | INFO | Batch 300 | Loss: 0.7501 | Correct: 95/128 | Elapsed Time: 7.09s
+2026-02-11 11:58:14,304 | INFO | Epoch [13/100] - Loss: 0.7053 | Correct: 37641/50000 (75.28%, 27.77s)
+2026-02-11 11:58:16,942 | INFO | Validation - Loss: 0.8297 | Correct: 7176/10000 (71.76%, 2.64s)
+2026-02-11 11:58:24,094 | INFO | Batch 100 | Loss: 0.6664 | Correct: 99/128 | Elapsed Time: 7.15s
+2026-02-11 11:58:31,210 | INFO | Batch 200 | Loss: 0.6422 | Correct: 100/128 | Elapsed Time: 7.12s
+2026-02-11 11:58:38,284 | INFO | Batch 300 | Loss: 0.6239 | Correct: 97/128 | Elapsed Time: 7.07s
+2026-02-11 11:58:44,681 | INFO | Epoch [14/100] - Loss: 0.6781 | Correct: 38091/50000 (76.18%, 27.74s)
+2026-02-11 11:58:47,284 | INFO | Validation - Loss: 0.6970 | Correct: 7602/10000 (76.02%, 2.60s)
+2026-02-11 11:58:47,374 | INFO | New best model saved at epoch 14 with Top1 Acc: 76.02%
+2026-02-11 11:58:54,553 | INFO | Batch 100 | Loss: 0.6049 | Correct: 100/128 | Elapsed Time: 7.18s
+2026-02-11 11:59:01,639 | INFO | Batch 200 | Loss: 0.7423 | Correct: 90/128 | Elapsed Time: 7.09s
+2026-02-11 11:59:08,745 | INFO | Batch 300 | Loss: 0.6492 | Correct: 99/128 | Elapsed Time: 7.11s
+2026-02-11 11:59:15,223 | INFO | Epoch [15/100] - Loss: 0.6533 | Correct: 38505/50000 (77.01%, 27.85s)
+2026-02-11 11:59:17,826 | INFO | Validation - Loss: 0.7653 | Correct: 7342/10000 (73.42%, 2.60s)
+2026-02-11 11:59:24,968 | INFO | Batch 100 | Loss: 0.6885 | Correct: 100/128 | Elapsed Time: 7.14s
+2026-02-11 11:59:32,105 | INFO | Batch 200 | Loss: 0.5816 | Correct: 97/128 | Elapsed Time: 7.14s
+2026-02-11 11:59:39,241 | INFO | Batch 300 | Loss: 0.6117 | Correct: 101/128 | Elapsed Time: 7.14s
+2026-02-11 11:59:45,697 | INFO | Epoch [16/100] - Loss: 0.6329 | Correct: 38847/50000 (77.69%, 27.87s)
+2026-02-11 11:59:48,294 | INFO | Validation - Loss: 0.7921 | Correct: 7293/10000 (72.93%, 2.60s)
+2026-02-11 11:59:55,423 | INFO | Batch 100 | Loss: 0.6705 | Correct: 95/128 | Elapsed Time: 7.13s
+2026-02-11 12:00:02,543 | INFO | Batch 200 | Loss: 0.6343 | Correct: 97/128 | Elapsed Time: 7.12s
+2026-02-11 12:00:09,646 | INFO | Batch 300 | Loss: 0.5521 | Correct: 113/128 | Elapsed Time: 7.10s
+2026-02-11 12:00:16,129 | INFO | Epoch [17/100] - Loss: 0.6117 | Correct: 39339/50000 (78.68%, 27.83s)
+2026-02-11 12:00:18,729 | INFO | Validation - Loss: 0.6912 | Correct: 7611/10000 (76.11%, 2.60s)
+2026-02-11 12:00:18,818 | INFO | New best model saved at epoch 17 with Top1 Acc: 76.11%
+2026-02-11 12:00:25,993 | INFO | Batch 100 | Loss: 0.6081 | Correct: 99/128 | Elapsed Time: 7.18s
+2026-02-11 12:00:33,122 | INFO | Batch 200 | Loss: 0.7115 | Correct: 94/128 | Elapsed Time: 7.13s
+2026-02-11 12:00:40,215 | INFO | Batch 300 | Loss: 0.5215 | Correct: 107/128 | Elapsed Time: 7.09s
+2026-02-11 12:00:46,672 | INFO | Epoch [18/100] - Loss: 0.5906 | Correct: 39607/50000 (79.21%, 27.85s)
+2026-02-11 12:00:49,244 | INFO | Validation - Loss: 0.6329 | Correct: 7780/10000 (77.80%, 2.57s)
+2026-02-11 12:00:49,331 | INFO | New best model saved at epoch 18 with Top1 Acc: 77.80%
+2026-02-11 12:00:56,517 | INFO | Batch 100 | Loss: 0.6161 | Correct: 101/128 | Elapsed Time: 7.19s
+2026-02-11 12:01:03,652 | INFO | Batch 200 | Loss: 0.6895 | Correct: 96/128 | Elapsed Time: 7.14s
+2026-02-11 12:01:10,804 | INFO | Batch 300 | Loss: 0.8231 | Correct: 92/128 | Elapsed Time: 7.15s
+2026-02-11 12:01:17,281 | INFO | Epoch [19/100] - Loss: 0.5752 | Correct: 39955/50000 (79.91%, 27.95s)
+2026-02-11 12:01:19,849 | INFO | Validation - Loss: 0.6686 | Correct: 7755/10000 (77.55%, 2.57s)
+2026-02-11 12:01:26,967 | INFO | Batch 100 | Loss: 0.4428 | Correct: 107/128 | Elapsed Time: 7.12s
+2026-02-11 12:01:34,099 | INFO | Batch 200 | Loss: 0.6023 | Correct: 104/128 | Elapsed Time: 7.13s
+2026-02-11 12:01:41,234 | INFO | Batch 300 | Loss: 0.5711 | Correct: 102/128 | Elapsed Time: 7.13s
+2026-02-11 12:01:47,722 | INFO | Epoch [20/100] - Loss: 0.5596 | Correct: 40181/50000 (80.36%, 27.87s)
+2026-02-11 12:01:50,280 | INFO | Validation - Loss: 0.6058 | Correct: 7883/10000 (78.83%, 2.56s)
+2026-02-11 12:01:50,367 | INFO | New best model saved at epoch 20 with Top1 Acc: 78.83%
+2026-02-11 12:01:57,566 | INFO | Batch 100 | Loss: 0.5906 | Correct: 97/128 | Elapsed Time: 7.20s
+2026-02-11 12:02:04,707 | INFO | Batch 200 | Loss: 0.6187 | Correct: 98/128 | Elapsed Time: 7.14s
+2026-02-11 12:02:11,846 | INFO | Batch 300 | Loss: 0.4781 | Correct: 104/128 | Elapsed Time: 7.14s
+2026-02-11 12:02:18,305 | INFO | Epoch [21/100] - Loss: 0.5457 | Correct: 40334/50000 (80.67%, 27.94s)
+2026-02-11 12:02:20,860 | INFO | Validation - Loss: 0.6698 | Correct: 7690/10000 (76.90%, 2.55s)
+2026-02-11 12:02:28,012 | INFO | Batch 100 | Loss: 0.4773 | Correct: 105/128 | Elapsed Time: 7.15s
+2026-02-11 12:02:35,105 | INFO | Batch 200 | Loss: 0.3843 | Correct: 112/128 | Elapsed Time: 7.09s
+2026-02-11 12:02:42,266 | INFO | Batch 300 | Loss: 0.4615 | Correct: 108/128 | Elapsed Time: 7.16s
+2026-02-11 12:02:48,760 | INFO | Epoch [22/100] - Loss: 0.5336 | Correct: 40634/50000 (81.27%, 27.90s)
+2026-02-11 12:02:51,353 | INFO | Validation - Loss: 0.6362 | Correct: 7874/10000 (78.74%, 2.59s)
+2026-02-11 12:02:58,494 | INFO | Batch 100 | Loss: 0.4776 | Correct: 109/128 | Elapsed Time: 7.14s
+2026-02-11 12:03:05,648 | INFO | Batch 200 | Loss: 0.3997 | Correct: 110/128 | Elapsed Time: 7.15s
+2026-02-11 12:03:12,771 | INFO | Batch 300 | Loss: 0.7030 | Correct: 94/128 | Elapsed Time: 7.12s
+2026-02-11 12:03:19,244 | INFO | Epoch [23/100] - Loss: 0.5198 | Correct: 40901/50000 (81.80%, 27.89s)
+2026-02-11 12:03:21,850 | INFO | Validation - Loss: 0.5861 | Correct: 7987/10000 (79.87%, 2.61s)
+2026-02-11 12:03:21,904 | INFO | New best model saved at epoch 23 with Top1 Acc: 79.87%
+2026-02-11 12:03:29,064 | INFO | Batch 100 | Loss: 0.7299 | Correct: 98/128 | Elapsed Time: 7.16s
+2026-02-11 12:03:36,227 | INFO | Batch 200 | Loss: 0.4965 | Correct: 103/128 | Elapsed Time: 7.16s
+2026-02-11 12:03:43,389 | INFO | Batch 300 | Loss: 0.4181 | Correct: 107/128 | Elapsed Time: 7.16s
+2026-02-11 12:03:49,881 | INFO | Epoch [24/100] - Loss: 0.5063 | Correct: 41065/50000 (82.13%, 27.98s)
+2026-02-11 12:03:52,474 | INFO | Validation - Loss: 0.6381 | Correct: 7864/10000 (78.64%, 2.59s)
+2026-02-11 12:03:59,587 | INFO | Batch 100 | Loss: 0.4914 | Correct: 108/128 | Elapsed Time: 7.11s
+2026-02-11 12:04:06,733 | INFO | Batch 200 | Loss: 0.6563 | Correct: 93/128 | Elapsed Time: 7.15s
+2026-02-11 12:04:13,846 | INFO | Batch 300 | Loss: 0.4849 | Correct: 107/128 | Elapsed Time: 7.11s
+2026-02-11 12:04:20,318 | INFO | Epoch [25/100] - Loss: 0.4974 | Correct: 41322/50000 (82.64%, 27.84s)
+2026-02-11 12:04:22,888 | INFO | Validation - Loss: 0.5727 | Correct: 8041/10000 (80.41%, 2.57s)
+2026-02-11 12:04:22,956 | INFO | New best model saved at epoch 25 with Top1 Acc: 80.41%
+2026-02-11 12:04:30,135 | INFO | Batch 100 | Loss: 0.5504 | Correct: 104/128 | Elapsed Time: 7.18s
+2026-02-11 12:04:37,272 | INFO | Batch 200 | Loss: 0.4590 | Correct: 110/128 | Elapsed Time: 7.14s
+2026-02-11 12:04:44,383 | INFO | Batch 300 | Loss: 0.5339 | Correct: 107/128 | Elapsed Time: 7.11s
+2026-02-11 12:04:50,846 | INFO | Epoch [26/100] - Loss: 0.4874 | Correct: 41476/50000 (82.95%, 27.89s)
+2026-02-11 12:04:53,449 | INFO | Validation - Loss: 0.7139 | Correct: 7654/10000 (76.54%, 2.60s)
+2026-02-11 12:05:00,554 | INFO | Batch 100 | Loss: 0.5425 | Correct: 104/128 | Elapsed Time: 7.10s
+2026-02-11 12:05:07,654 | INFO | Batch 200 | Loss: 0.4301 | Correct: 105/128 | Elapsed Time: 7.10s
+2026-02-11 12:05:14,802 | INFO | Batch 300 | Loss: 0.5713 | Correct: 102/128 | Elapsed Time: 7.15s
+2026-02-11 12:05:21,260 | INFO | Epoch [27/100] - Loss: 0.4824 | Correct: 41521/50000 (83.04%, 27.81s)
+2026-02-11 12:05:23,796 | INFO | Validation - Loss: 0.5830 | Correct: 8019/10000 (80.19%, 2.54s)
+2026-02-11 12:05:30,910 | INFO | Batch 100 | Loss: 0.4500 | Correct: 109/128 | Elapsed Time: 7.11s
+2026-02-11 12:05:38,060 | INFO | Batch 200 | Loss: 0.4764 | Correct: 102/128 | Elapsed Time: 7.15s
+2026-02-11 12:05:45,196 | INFO | Batch 300 | Loss: 0.4656 | Correct: 105/128 | Elapsed Time: 7.14s
+2026-02-11 12:05:51,651 | INFO | Epoch [28/100] - Loss: 0.4701 | Correct: 41741/50000 (83.48%, 27.85s)
+2026-02-11 12:05:54,204 | INFO | Validation - Loss: 0.5741 | Correct: 8077/10000 (80.77%, 2.55s)
+2026-02-11 12:05:54,283 | INFO | New best model saved at epoch 28 with Top1 Acc: 80.77%
+2026-02-11 12:06:01,480 | INFO | Batch 100 | Loss: 0.3418 | Correct: 116/128 | Elapsed Time: 7.20s
+2026-02-11 12:06:08,660 | INFO | Batch 200 | Loss: 0.4372 | Correct: 109/128 | Elapsed Time: 7.18s
+2026-02-11 12:06:15,801 | INFO | Batch 300 | Loss: 0.5156 | Correct: 106/128 | Elapsed Time: 7.14s
+2026-02-11 12:06:22,321 | INFO | Epoch [29/100] - Loss: 0.4604 | Correct: 41932/50000 (83.86%, 28.04s)
+2026-02-11 12:06:24,878 | INFO | Validation - Loss: 0.5768 | Correct: 8060/10000 (80.60%, 2.56s)
+2026-02-11 12:06:32,020 | INFO | Batch 100 | Loss: 0.4624 | Correct: 109/128 | Elapsed Time: 7.14s
+2026-02-11 12:06:39,144 | INFO | Batch 200 | Loss: 0.3819 | Correct: 111/128 | Elapsed Time: 7.12s
+2026-02-11 12:06:46,276 | INFO | Batch 300 | Loss: 0.4260 | Correct: 108/128 | Elapsed Time: 7.13s
+2026-02-11 12:06:52,745 | INFO | Epoch [30/100] - Loss: 0.4530 | Correct: 42090/50000 (84.18%, 27.87s)
+2026-02-11 12:06:55,335 | INFO | Validation - Loss: 0.5558 | Correct: 8097/10000 (80.97%, 2.59s)
+2026-02-11 12:06:55,425 | INFO | New best model saved at epoch 30 with Top1 Acc: 80.97%
+2026-02-11 12:07:02,626 | INFO | Batch 100 | Loss: 0.3407 | Correct: 109/128 | Elapsed Time: 7.20s
+2026-02-11 12:07:09,754 | INFO | Batch 200 | Loss: 0.4407 | Correct: 106/128 | Elapsed Time: 7.13s
+2026-02-11 12:07:16,983 | INFO | Batch 300 | Loss: 0.5223 | Correct: 103/128 | Elapsed Time: 7.23s
+2026-02-11 12:07:23,555 | INFO | Epoch [31/100] - Loss: 0.4451 | Correct: 42186/50000 (84.37%, 28.13s)
+2026-02-11 12:07:26,167 | INFO | Validation - Loss: 0.5971 | Correct: 7969/10000 (79.69%, 2.61s)
+2026-02-11 12:07:33,410 | INFO | Batch 100 | Loss: 0.4088 | Correct: 110/128 | Elapsed Time: 7.24s
+2026-02-11 12:07:40,658 | INFO | Batch 200 | Loss: 0.5148 | Correct: 108/128 | Elapsed Time: 7.25s
+2026-02-11 12:07:47,898 | INFO | Batch 300 | Loss: 0.4202 | Correct: 108/128 | Elapsed Time: 7.24s
+2026-02-11 12:07:54,432 | INFO | Epoch [32/100] - Loss: 0.4341 | Correct: 42366/50000 (84.73%, 28.26s)
+2026-02-11 12:07:57,078 | INFO | Validation - Loss: 0.5476 | Correct: 8174/10000 (81.74%, 2.65s)
+2026-02-11 12:07:57,134 | INFO | New best model saved at epoch 32 with Top1 Acc: 81.74%
+2026-02-11 12:08:04,428 | INFO | Batch 100 | Loss: 0.3763 | Correct: 108/128 | Elapsed Time: 7.29s
+2026-02-11 12:08:11,748 | INFO | Batch 200 | Loss: 0.3563 | Correct: 112/128 | Elapsed Time: 7.32s
+2026-02-11 12:08:19,027 | INFO | Batch 300 | Loss: 0.4666 | Correct: 110/128 | Elapsed Time: 7.28s
+2026-02-11 12:08:25,617 | INFO | Epoch [33/100] - Loss: 0.4331 | Correct: 42328/50000 (84.66%, 28.48s)
+2026-02-11 12:08:28,252 | INFO | Validation - Loss: 0.5603 | Correct: 8103/10000 (81.03%, 2.63s)
+2026-02-11 12:08:35,466 | INFO | Batch 100 | Loss: 0.5274 | Correct: 104/128 | Elapsed Time: 7.21s
+2026-02-11 12:08:42,724 | INFO | Batch 200 | Loss: 0.2876 | Correct: 115/128 | Elapsed Time: 7.26s
+2026-02-11 12:08:49,961 | INFO | Batch 300 | Loss: 0.4463 | Correct: 106/128 | Elapsed Time: 7.24s
+2026-02-11 12:08:56,514 | INFO | Epoch [34/100] - Loss: 0.4199 | Correct: 42612/50000 (85.22%, 28.26s)
+2026-02-11 12:08:59,103 | INFO | Validation - Loss: 0.5301 | Correct: 8222/10000 (82.22%, 2.59s)
+2026-02-11 12:08:59,184 | INFO | New best model saved at epoch 34 with Top1 Acc: 82.22%
+2026-02-11 12:09:06,379 | INFO | Batch 100 | Loss: 0.6186 | Correct: 103/128 | Elapsed Time: 7.20s
+2026-02-11 12:09:13,554 | INFO | Batch 200 | Loss: 0.4539 | Correct: 107/128 | Elapsed Time: 7.17s
+2026-02-11 12:09:20,817 | INFO | Batch 300 | Loss: 0.5100 | Correct: 103/128 | Elapsed Time: 7.26s
+2026-02-11 12:09:27,336 | INFO | Epoch [35/100] - Loss: 0.4173 | Correct: 42607/50000 (85.21%, 28.15s)
+2026-02-11 12:09:29,918 | INFO | Validation - Loss: 0.5390 | Correct: 8173/10000 (81.73%, 2.58s)
+2026-02-11 12:09:37,148 | INFO | Batch 100 | Loss: 0.3631 | Correct: 111/128 | Elapsed Time: 7.23s
+2026-02-11 12:09:44,347 | INFO | Batch 200 | Loss: 0.3888 | Correct: 112/128 | Elapsed Time: 7.20s
+2026-02-11 12:09:51,555 | INFO | Batch 300 | Loss: 0.4030 | Correct: 107/128 | Elapsed Time: 7.21s
+2026-02-11 12:09:58,083 | INFO | Epoch [36/100] - Loss: 0.4110 | Correct: 42779/50000 (85.56%, 28.16s)
+2026-02-11 12:10:00,666 | INFO | Validation - Loss: 0.5536 | Correct: 8117/10000 (81.17%, 2.58s)
+2026-02-11 12:10:07,898 | INFO | Batch 100 | Loss: 0.2272 | Correct: 118/128 | Elapsed Time: 7.23s
+2026-02-11 12:10:15,136 | INFO | Batch 200 | Loss: 0.5007 | Correct: 110/128 | Elapsed Time: 7.24s
+2026-02-11 12:10:22,383 | INFO | Batch 300 | Loss: 0.3295 | Correct: 113/128 | Elapsed Time: 7.25s
+2026-02-11 12:10:28,939 | INFO | Epoch [37/100] - Loss: 0.4024 | Correct: 42912/50000 (85.82%, 28.27s)
+2026-02-11 12:10:31,557 | INFO | Validation - Loss: 0.5449 | Correct: 8151/10000 (81.51%, 2.62s)
+2026-02-11 12:10:38,835 | INFO | Batch 100 | Loss: 0.3459 | Correct: 112/128 | Elapsed Time: 7.28s
+2026-02-11 12:10:46,154 | INFO | Batch 200 | Loss: 0.2696 | Correct: 115/128 | Elapsed Time: 7.32s
+2026-02-11 12:10:53,454 | INFO | Batch 300 | Loss: 0.3925 | Correct: 109/128 | Elapsed Time: 7.30s
+2026-02-11 12:11:00,091 | INFO | Epoch [38/100] - Loss: 0.3980 | Correct: 42975/50000 (85.95%, 28.53s)
+2026-02-11 12:11:02,749 | INFO | Validation - Loss: 0.5682 | Correct: 8143/10000 (81.43%, 2.66s)
+2026-02-11 12:11:10,097 | INFO | Batch 100 | Loss: 0.3187 | Correct: 117/128 | Elapsed Time: 7.35s
+2026-02-11 12:11:17,351 | INFO | Batch 200 | Loss: 0.4244 | Correct: 109/128 | Elapsed Time: 7.25s
+2026-02-11 12:11:24,623 | INFO | Batch 300 | Loss: 0.4558 | Correct: 109/128 | Elapsed Time: 7.27s
+2026-02-11 12:11:31,256 | INFO | Epoch [39/100] - Loss: 0.3927 | Correct: 43171/50000 (86.34%, 28.50s)
+2026-02-11 12:11:33,862 | INFO | Validation - Loss: 0.5763 | Correct: 8116/10000 (81.16%, 2.61s)
+2026-02-11 12:11:41,179 | INFO | Batch 100 | Loss: 0.3773 | Correct: 114/128 | Elapsed Time: 7.31s
+2026-02-11 12:11:48,385 | INFO | Batch 200 | Loss: 0.4436 | Correct: 111/128 | Elapsed Time: 7.21s
+2026-02-11 12:11:55,558 | INFO | Batch 300 | Loss: 0.4073 | Correct: 109/128 | Elapsed Time: 7.17s
+2026-02-11 12:12:02,065 | INFO | Epoch [40/100] - Loss: 0.3889 | Correct: 43153/50000 (86.31%, 28.20s)
+2026-02-11 12:12:04,608 | INFO | Validation - Loss: 0.5584 | Correct: 8144/10000 (81.44%, 2.54s)
+2026-02-11 12:12:11,741 | INFO | Batch 100 | Loss: 0.4318 | Correct: 107/128 | Elapsed Time: 7.13s
+2026-02-11 12:12:18,946 | INFO | Batch 200 | Loss: 0.3866 | Correct: 115/128 | Elapsed Time: 7.20s
+2026-02-11 12:12:26,147 | INFO | Batch 300 | Loss: 0.3685 | Correct: 110/128 | Elapsed Time: 7.20s
+2026-02-11 12:12:32,653 | INFO | Epoch [41/100] - Loss: 0.3843 | Correct: 43149/50000 (86.30%, 28.04s)
+2026-02-11 12:12:35,225 | INFO | Validation - Loss: 0.5449 | Correct: 8188/10000 (81.88%, 2.57s)
+2026-02-11 12:12:42,391 | INFO | Batch 100 | Loss: 0.2839 | Correct: 115/128 | Elapsed Time: 7.16s
+2026-02-11 12:12:49,538 | INFO | Batch 200 | Loss: 0.3483 | Correct: 113/128 | Elapsed Time: 7.15s
+2026-02-11 12:12:56,718 | INFO | Batch 300 | Loss: 0.3263 | Correct: 112/128 | Elapsed Time: 7.18s
+2026-02-11 12:13:03,233 | INFO | Epoch [42/100] - Loss: 0.3780 | Correct: 43315/50000 (86.63%, 28.01s)
+2026-02-11 12:13:05,817 | INFO | Validation - Loss: 0.5517 | Correct: 8145/10000 (81.45%, 2.58s)
+2026-02-11 12:13:13,025 | INFO | Batch 100 | Loss: 0.3686 | Correct: 111/128 | Elapsed Time: 7.21s
+2026-02-11 12:13:20,206 | INFO | Batch 200 | Loss: 0.2719 | Correct: 113/128 | Elapsed Time: 7.18s
+2026-02-11 12:13:27,369 | INFO | Batch 300 | Loss: 0.3848 | Correct: 111/128 | Elapsed Time: 7.16s
+2026-02-11 12:13:33,859 | INFO | Epoch [43/100] - Loss: 0.3686 | Correct: 43409/50000 (86.82%, 28.04s)
+2026-02-11 12:13:36,463 | INFO | Validation - Loss: 0.5258 | Correct: 8250/10000 (82.50%, 2.60s)
+2026-02-11 12:13:36,535 | INFO | New best model saved at epoch 43 with Top1 Acc: 82.50%
+2026-02-11 12:13:43,718 | INFO | Batch 100 | Loss: 0.3061 | Correct: 112/128 | Elapsed Time: 7.18s
+2026-02-11 12:13:50,925 | INFO | Batch 200 | Loss: 0.3740 | Correct: 106/128 | Elapsed Time: 7.21s
+2026-02-11 12:13:58,131 | INFO | Batch 300 | Loss: 0.3606 | Correct: 111/128 | Elapsed Time: 7.21s
+2026-02-11 12:14:04,645 | INFO | Epoch [44/100] - Loss: 0.3656 | Correct: 43546/50000 (87.09%, 28.11s)
+2026-02-11 12:14:07,276 | INFO | Validation - Loss: 0.4803 | Correct: 8372/10000 (83.72%, 2.63s)
+2026-02-11 12:14:07,331 | INFO | New best model saved at epoch 44 with Top1 Acc: 83.72%
+2026-02-11 12:14:14,505 | INFO | Batch 100 | Loss: 0.3717 | Correct: 108/128 | Elapsed Time: 7.17s
+2026-02-11 12:14:21,674 | INFO | Batch 200 | Loss: 0.3528 | Correct: 111/128 | Elapsed Time: 7.17s
+2026-02-11 12:14:28,858 | INFO | Batch 300 | Loss: 0.4154 | Correct: 108/128 | Elapsed Time: 7.18s
+2026-02-11 12:14:35,396 | INFO | Epoch [45/100] - Loss: 0.3576 | Correct: 43755/50000 (87.51%, 28.06s)
+2026-02-11 12:14:38,014 | INFO | Validation - Loss: 0.5932 | Correct: 8107/10000 (81.07%, 2.62s)
+2026-02-11 12:14:45,190 | INFO | Batch 100 | Loss: 0.4031 | Correct: 112/128 | Elapsed Time: 7.17s
+2026-02-11 12:14:52,351 | INFO | Batch 200 | Loss: 0.3733 | Correct: 108/128 | Elapsed Time: 7.16s
+2026-02-11 12:14:59,528 | INFO | Batch 300 | Loss: 0.4734 | Correct: 110/128 | Elapsed Time: 7.18s
+2026-02-11 12:15:05,986 | INFO | Epoch [46/100] - Loss: 0.3588 | Correct: 43633/50000 (87.27%, 27.97s)
+2026-02-11 12:15:08,572 | INFO | Validation - Loss: 0.5993 | Correct: 8122/10000 (81.22%, 2.59s)
+2026-02-11 12:15:15,774 | INFO | Batch 100 | Loss: 0.4105 | Correct: 107/128 | Elapsed Time: 7.20s
+2026-02-11 12:15:22,955 | INFO | Batch 200 | Loss: 0.2590 | Correct: 114/128 | Elapsed Time: 7.18s
+2026-02-11 12:15:30,099 | INFO | Batch 300 | Loss: 0.3629 | Correct: 113/128 | Elapsed Time: 7.14s
+2026-02-11 12:15:36,546 | INFO | Epoch [47/100] - Loss: 0.3562 | Correct: 43694/50000 (87.39%, 27.97s)
+2026-02-11 12:15:39,114 | INFO | Validation - Loss: 0.4929 | Correct: 8381/10000 (83.81%, 2.57s)
+2026-02-11 12:15:39,193 | INFO | New best model saved at epoch 47 with Top1 Acc: 83.81%
+2026-02-11 12:15:46,394 | INFO | Batch 100 | Loss: 0.3689 | Correct: 109/128 | Elapsed Time: 7.20s
+2026-02-11 12:15:53,572 | INFO | Batch 200 | Loss: 0.4562 | Correct: 105/128 | Elapsed Time: 7.18s
+2026-02-11 12:16:00,779 | INFO | Batch 300 | Loss: 0.3114 | Correct: 113/128 | Elapsed Time: 7.21s
+2026-02-11 12:16:07,295 | INFO | Epoch [48/100] - Loss: 0.3477 | Correct: 43868/50000 (87.74%, 28.10s)
+2026-02-11 12:16:09,871 | INFO | Validation - Loss: 0.5332 | Correct: 8202/10000 (82.02%, 2.57s)
+2026-02-11 12:16:16,990 | INFO | Batch 100 | Loss: 0.3870 | Correct: 106/128 | Elapsed Time: 7.12s
+2026-02-11 12:16:24,146 | INFO | Batch 200 | Loss: 0.2469 | Correct: 119/128 | Elapsed Time: 7.16s
+2026-02-11 12:16:31,296 | INFO | Batch 300 | Loss: 0.3469 | Correct: 114/128 | Elapsed Time: 7.15s
+2026-02-11 12:16:37,823 | INFO | Epoch [49/100] - Loss: 0.3431 | Correct: 43954/50000 (87.91%, 27.95s)
+2026-02-11 12:16:40,386 | INFO | Validation - Loss: 0.5258 | Correct: 8307/10000 (83.07%, 2.56s)
+2026-02-11 12:16:47,526 | INFO | Batch 100 | Loss: 0.4644 | Correct: 104/128 | Elapsed Time: 7.14s
+2026-02-11 12:16:54,691 | INFO | Batch 200 | Loss: 0.3693 | Correct: 111/128 | Elapsed Time: 7.17s
+2026-02-11 12:17:01,839 | INFO | Batch 300 | Loss: 0.3159 | Correct: 114/128 | Elapsed Time: 7.15s
+2026-02-11 12:17:08,383 | INFO | Epoch [50/100] - Loss: 0.3428 | Correct: 43964/50000 (87.93%, 27.99s)
+2026-02-11 12:17:10,964 | INFO | Validation - Loss: 0.5082 | Correct: 8309/10000 (83.09%, 2.58s)
+2026-02-11 12:17:18,091 | INFO | Batch 100 | Loss: 0.3285 | Correct: 114/128 | Elapsed Time: 7.13s
+2026-02-11 12:17:25,236 | INFO | Batch 200 | Loss: 0.3211 | Correct: 113/128 | Elapsed Time: 7.14s
+2026-02-11 12:17:32,373 | INFO | Batch 300 | Loss: 0.2735 | Correct: 114/128 | Elapsed Time: 7.14s
+2026-02-11 12:17:38,927 | INFO | Epoch [51/100] - Loss: 0.2707 | Correct: 45253/50000 (90.51%, 27.96s)
+2026-02-11 12:17:41,534 | INFO | Validation - Loss: 0.4074 | Correct: 8638/10000 (86.38%, 2.61s)
+2026-02-11 12:17:41,588 | INFO | New best model saved at epoch 51 with Top1 Acc: 86.38%
+2026-02-11 12:17:48,742 | INFO | Batch 100 | Loss: 0.2079 | Correct: 120/128 | Elapsed Time: 7.15s
+2026-02-11 12:17:55,890 | INFO | Batch 200 | Loss: 0.1944 | Correct: 116/128 | Elapsed Time: 7.15s
+2026-02-11 12:18:03,017 | INFO | Batch 300 | Loss: 0.2040 | Correct: 120/128 | Elapsed Time: 7.13s
+2026-02-11 12:18:09,500 | INFO | Epoch [52/100] - Loss: 0.2410 | Correct: 45767/50000 (91.53%, 27.91s)
+2026-02-11 12:18:12,109 | INFO | Validation - Loss: 0.4073 | Correct: 8680/10000 (86.80%, 2.61s)
+2026-02-11 12:18:12,163 | INFO | New best model saved at epoch 52 with Top1 Acc: 86.80%
+2026-02-11 12:18:19,356 | INFO | Batch 100 | Loss: 0.2961 | Correct: 115/128 | Elapsed Time: 7.19s
+2026-02-11 12:18:26,498 | INFO | Batch 200 | Loss: 0.1943 | Correct: 119/128 | Elapsed Time: 7.14s
+2026-02-11 12:18:33,670 | INFO | Batch 300 | Loss: 0.2769 | Correct: 115/128 | Elapsed Time: 7.17s
+2026-02-11 12:18:40,203 | INFO | Epoch [53/100] - Loss: 0.2279 | Correct: 46043/50000 (92.09%, 28.04s)
+2026-02-11 12:18:42,809 | INFO | Validation - Loss: 0.4094 | Correct: 8680/10000 (86.80%, 2.61s)
+2026-02-11 12:18:49,977 | INFO | Batch 100 | Loss: 0.1981 | Correct: 117/128 | Elapsed Time: 7.17s
+2026-02-11 12:18:57,113 | INFO | Batch 200 | Loss: 0.1782 | Correct: 121/128 | Elapsed Time: 7.14s
+2026-02-11 12:19:04,249 | INFO | Batch 300 | Loss: 0.1447 | Correct: 119/128 | Elapsed Time: 7.14s
+2026-02-11 12:19:10,723 | INFO | Epoch [54/100] - Loss: 0.2129 | Correct: 46245/50000 (92.49%, 27.91s)
+2026-02-11 12:19:13,322 | INFO | Validation - Loss: 0.4133 | Correct: 8690/10000 (86.90%, 2.60s)
+2026-02-11 12:19:13,411 | INFO | New best model saved at epoch 54 with Top1 Acc: 86.90%
+2026-02-11 12:19:20,569 | INFO | Batch 100 | Loss: 0.1683 | Correct: 118/128 | Elapsed Time: 7.16s
+2026-02-11 12:19:27,724 | INFO | Batch 200 | Loss: 0.3582 | Correct: 115/128 | Elapsed Time: 7.15s
+2026-02-11 12:19:34,885 | INFO | Batch 300 | Loss: 0.1796 | Correct: 119/128 | Elapsed Time: 7.16s
+2026-02-11 12:19:41,359 | INFO | Epoch [55/100] - Loss: 0.2132 | Correct: 46219/50000 (92.44%, 27.95s)
+2026-02-11 12:19:43,918 | INFO | Validation - Loss: 0.4106 | Correct: 8692/10000 (86.92%, 2.56s)
+2026-02-11 12:19:43,993 | INFO | New best model saved at epoch 55 with Top1 Acc: 86.92%
+2026-02-11 12:19:51,138 | INFO | Batch 100 | Loss: 0.2232 | Correct: 116/128 | Elapsed Time: 7.15s
+2026-02-11 12:19:58,258 | INFO | Batch 200 | Loss: 0.1683 | Correct: 120/128 | Elapsed Time: 7.12s
+2026-02-11 12:20:05,390 | INFO | Batch 300 | Loss: 0.2649 | Correct: 116/128 | Elapsed Time: 7.13s
+2026-02-11 12:20:11,880 | INFO | Epoch [56/100] - Loss: 0.2045 | Correct: 46377/50000 (92.75%, 27.89s)
+2026-02-11 12:20:14,452 | INFO | Validation - Loss: 0.4192 | Correct: 8706/10000 (87.06%, 2.57s)
+2026-02-11 12:20:14,540 | INFO | New best model saved at epoch 56 with Top1 Acc: 87.06%
+2026-02-11 12:20:21,696 | INFO | Batch 100 | Loss: 0.1796 | Correct: 124/128 | Elapsed Time: 7.16s
+2026-02-11 12:20:28,841 | INFO | Batch 200 | Loss: 0.1388 | Correct: 121/128 | Elapsed Time: 7.15s
+2026-02-11 12:20:36,031 | INFO | Batch 300 | Loss: 0.2058 | Correct: 117/128 | Elapsed Time: 7.19s
+2026-02-11 12:20:42,456 | INFO | Epoch [57/100] - Loss: 0.1994 | Correct: 46490/50000 (92.98%, 27.92s)
+2026-02-11 12:20:44,988 | INFO | Validation - Loss: 0.4153 | Correct: 8718/10000 (87.18%, 2.53s)
+2026-02-11 12:20:45,056 | INFO | New best model saved at epoch 57 with Top1 Acc: 87.18%
+2026-02-11 12:20:52,148 | INFO | Batch 100 | Loss: 0.2044 | Correct: 118/128 | Elapsed Time: 7.09s
+2026-02-11 12:20:59,293 | INFO | Batch 200 | Loss: 0.1493 | Correct: 122/128 | Elapsed Time: 7.15s
+2026-02-11 12:21:06,408 | INFO | Batch 300 | Loss: 0.1777 | Correct: 122/128 | Elapsed Time: 7.11s
+2026-02-11 12:21:12,902 | INFO | Epoch [58/100] - Loss: 0.1906 | Correct: 46631/50000 (93.26%, 27.84s)
+2026-02-11 12:21:15,482 | INFO | Validation - Loss: 0.4179 | Correct: 8683/10000 (86.83%, 2.58s)
+2026-02-11 12:21:22,591 | INFO | Batch 100 | Loss: 0.2524 | Correct: 116/128 | Elapsed Time: 7.11s
+2026-02-11 12:21:29,699 | INFO | Batch 200 | Loss: 0.1879 | Correct: 122/128 | Elapsed Time: 7.11s
+2026-02-11 12:21:36,854 | INFO | Batch 300 | Loss: 0.2154 | Correct: 119/128 | Elapsed Time: 7.15s
+2026-02-11 12:21:43,317 | INFO | Epoch [59/100] - Loss: 0.1884 | Correct: 46646/50000 (93.29%, 27.83s)
+2026-02-11 12:21:45,858 | INFO | Validation - Loss: 0.4280 | Correct: 8695/10000 (86.95%, 2.54s)
+2026-02-11 12:21:53,035 | INFO | Batch 100 | Loss: 0.2654 | Correct: 119/128 | Elapsed Time: 7.17s
+2026-02-11 12:22:00,178 | INFO | Batch 200 | Loss: 0.1418 | Correct: 123/128 | Elapsed Time: 7.14s
+2026-02-11 12:22:07,282 | INFO | Batch 300 | Loss: 0.1918 | Correct: 118/128 | Elapsed Time: 7.10s
+2026-02-11 12:22:13,744 | INFO | Epoch [60/100] - Loss: 0.1821 | Correct: 46770/50000 (93.54%, 27.88s)
+2026-02-11 12:22:16,311 | INFO | Validation - Loss: 0.4245 | Correct: 8694/10000 (86.94%, 2.57s)
+2026-02-11 12:22:23,450 | INFO | Batch 100 | Loss: 0.1605 | Correct: 120/128 | Elapsed Time: 7.14s
+2026-02-11 12:22:30,580 | INFO | Batch 200 | Loss: 0.1891 | Correct: 119/128 | Elapsed Time: 7.13s
+2026-02-11 12:22:37,865 | INFO | Batch 300 | Loss: 0.1767 | Correct: 120/128 | Elapsed Time: 7.29s
+2026-02-11 12:22:44,417 | INFO | Epoch [61/100] - Loss: 0.1802 | Correct: 46856/50000 (93.71%, 28.10s)
+2026-02-11 12:22:47,037 | INFO | Validation - Loss: 0.4312 | Correct: 8708/10000 (87.08%, 2.62s)
+2026-02-11 12:22:54,227 | INFO | Batch 100 | Loss: 0.0839 | Correct: 125/128 | Elapsed Time: 7.19s
+2026-02-11 12:23:01,472 | INFO | Batch 200 | Loss: 0.1146 | Correct: 124/128 | Elapsed Time: 7.25s
+2026-02-11 12:23:08,732 | INFO | Batch 300 | Loss: 0.1923 | Correct: 118/128 | Elapsed Time: 7.26s
+2026-02-11 12:23:15,298 | INFO | Epoch [62/100] - Loss: 0.1741 | Correct: 46851/50000 (93.70%, 28.26s)
+2026-02-11 12:23:17,924 | INFO | Validation - Loss: 0.4394 | Correct: 8687/10000 (86.87%, 2.62s)
+2026-02-11 12:23:25,187 | INFO | Batch 100 | Loss: 0.1987 | Correct: 119/128 | Elapsed Time: 7.26s
+2026-02-11 12:23:32,469 | INFO | Batch 200 | Loss: 0.1868 | Correct: 119/128 | Elapsed Time: 7.28s
+2026-02-11 12:23:39,773 | INFO | Batch 300 | Loss: 0.2075 | Correct: 119/128 | Elapsed Time: 7.30s
+2026-02-11 12:23:46,376 | INFO | Epoch [63/100] - Loss: 0.1700 | Correct: 46994/50000 (93.99%, 28.45s)
+2026-02-11 12:23:48,967 | INFO | Validation - Loss: 0.4335 | Correct: 8695/10000 (86.95%, 2.59s)
+2026-02-11 12:23:56,279 | INFO | Batch 100 | Loss: 0.1748 | Correct: 122/128 | Elapsed Time: 7.31s
+2026-02-11 12:24:03,536 | INFO | Batch 200 | Loss: 0.2122 | Correct: 120/128 | Elapsed Time: 7.26s
+2026-02-11 12:24:10,793 | INFO | Batch 300 | Loss: 0.1606 | Correct: 122/128 | Elapsed Time: 7.26s
+2026-02-11 12:24:17,413 | INFO | Epoch [64/100] - Loss: 0.1658 | Correct: 47047/50000 (94.09%, 28.44s)
+2026-02-11 12:24:20,022 | INFO | Validation - Loss: 0.4350 | Correct: 8706/10000 (87.06%, 2.61s)
+2026-02-11 12:24:27,282 | INFO | Batch 100 | Loss: 0.1603 | Correct: 120/128 | Elapsed Time: 7.26s
+2026-02-11 12:24:34,504 | INFO | Batch 200 | Loss: 0.2416 | Correct: 119/128 | Elapsed Time: 7.22s
+2026-02-11 12:24:41,772 | INFO | Batch 300 | Loss: 0.0937 | Correct: 125/128 | Elapsed Time: 7.27s
+2026-02-11 12:24:48,370 | INFO | Epoch [65/100] - Loss: 0.1673 | Correct: 47020/50000 (94.04%, 28.35s)
+2026-02-11 12:24:50,956 | INFO | Validation - Loss: 0.4388 | Correct: 8721/10000 (87.21%, 2.58s)
+2026-02-11 12:24:51,051 | INFO | New best model saved at epoch 65 with Top1 Acc: 87.21%
+2026-02-11 12:24:58,323 | INFO | Batch 100 | Loss: 0.1604 | Correct: 120/128 | Elapsed Time: 7.27s
+2026-02-11 12:25:05,569 | INFO | Batch 200 | Loss: 0.1717 | Correct: 120/128 | Elapsed Time: 7.25s
+2026-02-11 12:25:12,811 | INFO | Batch 300 | Loss: 0.1304 | Correct: 124/128 | Elapsed Time: 7.24s
+2026-02-11 12:25:19,398 | INFO | Epoch [66/100] - Loss: 0.1593 | Correct: 47179/50000 (94.36%, 28.35s)
+2026-02-11 12:25:22,042 | INFO | Validation - Loss: 0.4477 | Correct: 8711/10000 (87.11%, 2.64s)
+2026-02-11 12:25:29,317 | INFO | Batch 100 | Loss: 0.1227 | Correct: 121/128 | Elapsed Time: 7.27s
+2026-02-11 12:25:36,560 | INFO | Batch 200 | Loss: 0.1146 | Correct: 122/128 | Elapsed Time: 7.24s
+2026-02-11 12:25:43,797 | INFO | Batch 300 | Loss: 0.1011 | Correct: 123/128 | Elapsed Time: 7.24s
+2026-02-11 12:25:50,327 | INFO | Epoch [67/100] - Loss: 0.1567 | Correct: 47218/50000 (94.44%, 28.28s)
+2026-02-11 12:25:52,914 | INFO | Validation - Loss: 0.4465 | Correct: 8714/10000 (87.14%, 2.59s)
+2026-02-11 12:26:00,080 | INFO | Batch 100 | Loss: 0.1832 | Correct: 120/128 | Elapsed Time: 7.16s
+2026-02-11 12:26:07,222 | INFO | Batch 200 | Loss: 0.1446 | Correct: 122/128 | Elapsed Time: 7.14s
+2026-02-11 12:26:14,402 | INFO | Batch 300 | Loss: 0.1754 | Correct: 119/128 | Elapsed Time: 7.18s
+2026-02-11 12:26:20,897 | INFO | Epoch [68/100] - Loss: 0.1563 | Correct: 47167/50000 (94.33%, 27.98s)
+2026-02-11 12:26:23,470 | INFO | Validation - Loss: 0.4493 | Correct: 8724/10000 (87.24%, 2.57s)
+2026-02-11 12:26:23,525 | INFO | New best model saved at epoch 68 with Top1 Acc: 87.24%
+2026-02-11 12:26:30,730 | INFO | Batch 100 | Loss: 0.1133 | Correct: 123/128 | Elapsed Time: 7.20s
+2026-02-11 12:26:37,995 | INFO | Batch 200 | Loss: 0.1681 | Correct: 120/128 | Elapsed Time: 7.26s
+2026-02-11 12:26:45,178 | INFO | Batch 300 | Loss: 0.1190 | Correct: 123/128 | Elapsed Time: 7.18s
+2026-02-11 12:26:51,715 | INFO | Epoch [69/100] - Loss: 0.1521 | Correct: 47326/50000 (94.65%, 28.19s)
+2026-02-11 12:26:54,303 | INFO | Validation - Loss: 0.4498 | Correct: 8740/10000 (87.40%, 2.59s)
+2026-02-11 12:26:54,391 | INFO | New best model saved at epoch 69 with Top1 Acc: 87.40%
+2026-02-11 12:27:01,645 | INFO | Batch 100 | Loss: 0.0829 | Correct: 125/128 | Elapsed Time: 7.25s
+2026-02-11 12:27:08,886 | INFO | Batch 200 | Loss: 0.1660 | Correct: 120/128 | Elapsed Time: 7.24s
+2026-02-11 12:27:16,092 | INFO | Batch 300 | Loss: 0.0452 | Correct: 127/128 | Elapsed Time: 7.21s
+2026-02-11 12:27:22,584 | INFO | Epoch [70/100] - Loss: 0.1491 | Correct: 47335/50000 (94.67%, 28.19s)
+2026-02-11 12:27:25,165 | INFO | Validation - Loss: 0.4624 | Correct: 8705/10000 (87.05%, 2.58s)
+2026-02-11 12:27:32,345 | INFO | Batch 100 | Loss: 0.2095 | Correct: 115/128 | Elapsed Time: 7.18s
+2026-02-11 12:27:39,497 | INFO | Batch 200 | Loss: 0.1397 | Correct: 122/128 | Elapsed Time: 7.15s
+2026-02-11 12:27:46,669 | INFO | Batch 300 | Loss: 0.1983 | Correct: 119/128 | Elapsed Time: 7.17s
+2026-02-11 12:27:53,186 | INFO | Epoch [71/100] - Loss: 0.1478 | Correct: 47315/50000 (94.63%, 28.02s)
+2026-02-11 12:27:55,750 | INFO | Validation - Loss: 0.4594 | Correct: 8718/10000 (87.18%, 2.56s)
+2026-02-11 12:28:02,920 | INFO | Batch 100 | Loss: 0.1485 | Correct: 121/128 | Elapsed Time: 7.17s
+2026-02-11 12:28:10,077 | INFO | Batch 200 | Loss: 0.1407 | Correct: 121/128 | Elapsed Time: 7.16s
+2026-02-11 12:28:17,246 | INFO | Batch 300 | Loss: 0.0965 | Correct: 124/128 | Elapsed Time: 7.17s
+2026-02-11 12:28:23,784 | INFO | Epoch [72/100] - Loss: 0.1447 | Correct: 47384/50000 (94.77%, 28.03s)
+2026-02-11 12:28:26,386 | INFO | Validation - Loss: 0.4629 | Correct: 8713/10000 (87.13%, 2.60s)
+2026-02-11 12:28:33,569 | INFO | Batch 100 | Loss: 0.0871 | Correct: 124/128 | Elapsed Time: 7.18s
+2026-02-11 12:28:40,774 | INFO | Batch 200 | Loss: 0.1763 | Correct: 121/128 | Elapsed Time: 7.21s
+2026-02-11 12:28:47,912 | INFO | Batch 300 | Loss: 0.2246 | Correct: 120/128 | Elapsed Time: 7.14s
+2026-02-11 12:28:54,420 | INFO | Epoch [73/100] - Loss: 0.1441 | Correct: 47420/50000 (94.84%, 28.03s)
+2026-02-11 12:28:57,053 | INFO | Validation - Loss: 0.4621 | Correct: 8707/10000 (87.07%, 2.63s)
+2026-02-11 12:29:04,235 | INFO | Batch 100 | Loss: 0.0926 | Correct: 125/128 | Elapsed Time: 7.18s
+2026-02-11 12:29:11,441 | INFO | Batch 200 | Loss: 0.1049 | Correct: 121/128 | Elapsed Time: 7.21s
+2026-02-11 12:29:18,626 | INFO | Batch 300 | Loss: 0.1589 | Correct: 120/128 | Elapsed Time: 7.18s
+2026-02-11 12:29:25,132 | INFO | Epoch [74/100] - Loss: 0.1425 | Correct: 47468/50000 (94.94%, 28.08s)
+2026-02-11 12:29:27,723 | INFO | Validation - Loss: 0.4621 | Correct: 8729/10000 (87.29%, 2.59s)
+2026-02-11 12:29:34,902 | INFO | Batch 100 | Loss: 0.1131 | Correct: 123/128 | Elapsed Time: 7.18s
+2026-02-11 12:29:42,052 | INFO | Batch 200 | Loss: 0.1531 | Correct: 121/128 | Elapsed Time: 7.15s
+2026-02-11 12:29:49,210 | INFO | Batch 300 | Loss: 0.1665 | Correct: 120/128 | Elapsed Time: 7.16s
+2026-02-11 12:29:55,720 | INFO | Epoch [75/100] - Loss: 0.1392 | Correct: 47528/50000 (95.06%, 27.99s)
+2026-02-11 12:29:58,305 | INFO | Validation - Loss: 0.4648 | Correct: 8731/10000 (87.31%, 2.58s)
+2026-02-11 12:30:05,447 | INFO | Batch 100 | Loss: 0.1646 | Correct: 117/128 | Elapsed Time: 7.14s
+2026-02-11 12:30:12,602 | INFO | Batch 200 | Loss: 0.0730 | Correct: 125/128 | Elapsed Time: 7.15s
+2026-02-11 12:30:19,770 | INFO | Batch 300 | Loss: 0.1671 | Correct: 118/128 | Elapsed Time: 7.17s
+2026-02-11 12:30:26,287 | INFO | Epoch [76/100] - Loss: 0.1333 | Correct: 47632/50000 (95.26%, 27.98s)
+2026-02-11 12:30:28,827 | INFO | Validation - Loss: 0.4582 | Correct: 8736/10000 (87.36%, 2.54s)
+2026-02-11 12:30:35,959 | INFO | Batch 100 | Loss: 0.0943 | Correct: 124/128 | Elapsed Time: 7.13s
+2026-02-11 12:30:43,058 | INFO | Batch 200 | Loss: 0.1280 | Correct: 121/128 | Elapsed Time: 7.10s
+2026-02-11 12:30:50,185 | INFO | Batch 300 | Loss: 0.2054 | Correct: 119/128 | Elapsed Time: 7.13s
+2026-02-11 12:30:56,665 | INFO | Epoch [77/100] - Loss: 0.1251 | Correct: 47729/50000 (95.46%, 27.83s)
+2026-02-11 12:30:59,190 | INFO | Validation - Loss: 0.4602 | Correct: 8736/10000 (87.36%, 2.52s)
+2026-02-11 12:31:06,284 | INFO | Batch 100 | Loss: 0.2409 | Correct: 121/128 | Elapsed Time: 7.09s
+2026-02-11 12:31:13,389 | INFO | Batch 200 | Loss: 0.0914 | Correct: 122/128 | Elapsed Time: 7.11s
+2026-02-11 12:31:20,531 | INFO | Batch 300 | Loss: 0.1343 | Correct: 125/128 | Elapsed Time: 7.14s
+2026-02-11 12:31:27,001 | INFO | Epoch [78/100] - Loss: 0.1286 | Correct: 47699/50000 (95.40%, 27.81s)
+2026-02-11 12:31:29,552 | INFO | Validation - Loss: 0.4584 | Correct: 8733/10000 (87.33%, 2.55s)
+2026-02-11 12:31:36,701 | INFO | Batch 100 | Loss: 0.1457 | Correct: 124/128 | Elapsed Time: 7.15s
+2026-02-11 12:31:43,798 | INFO | Batch 200 | Loss: 0.1924 | Correct: 121/128 | Elapsed Time: 7.10s
+2026-02-11 12:31:50,963 | INFO | Batch 300 | Loss: 0.1487 | Correct: 118/128 | Elapsed Time: 7.16s
+2026-02-11 12:31:57,444 | INFO | Epoch [79/100] - Loss: 0.1297 | Correct: 47684/50000 (95.37%, 27.89s)
+2026-02-11 12:32:00,002 | INFO | Validation - Loss: 0.4593 | Correct: 8743/10000 (87.43%, 2.56s)
+2026-02-11 12:32:00,057 | INFO | New best model saved at epoch 79 with Top1 Acc: 87.43%
+2026-02-11 12:32:07,172 | INFO | Batch 100 | Loss: 0.1396 | Correct: 120/128 | Elapsed Time: 7.12s
+2026-02-11 12:32:14,310 | INFO | Batch 200 | Loss: 0.2160 | Correct: 116/128 | Elapsed Time: 7.14s
+2026-02-11 12:32:21,464 | INFO | Batch 300 | Loss: 0.1530 | Correct: 121/128 | Elapsed Time: 7.15s
+2026-02-11 12:32:27,943 | INFO | Epoch [80/100] - Loss: 0.1263 | Correct: 47829/50000 (95.66%, 27.89s)
+2026-02-11 12:32:30,510 | INFO | Validation - Loss: 0.4642 | Correct: 8746/10000 (87.46%, 2.57s)
+2026-02-11 12:32:30,599 | INFO | New best model saved at epoch 80 with Top1 Acc: 87.46%
+2026-02-11 12:32:37,717 | INFO | Batch 100 | Loss: 0.0668 | Correct: 124/128 | Elapsed Time: 7.12s
+2026-02-11 12:32:44,810 | INFO | Batch 200 | Loss: 0.0945 | Correct: 126/128 | Elapsed Time: 7.09s
+2026-02-11 12:32:51,916 | INFO | Batch 300 | Loss: 0.1186 | Correct: 122/128 | Elapsed Time: 7.11s
+2026-02-11 12:32:58,433 | INFO | Epoch [81/100] - Loss: 0.1264 | Correct: 47737/50000 (95.47%, 27.83s)
+2026-02-11 12:33:00,996 | INFO | Validation - Loss: 0.4642 | Correct: 8724/10000 (87.24%, 2.56s)
+2026-02-11 12:33:08,180 | INFO | Batch 100 | Loss: 0.1153 | Correct: 123/128 | Elapsed Time: 7.18s
+2026-02-11 12:33:15,293 | INFO | Batch 200 | Loss: 0.1744 | Correct: 121/128 | Elapsed Time: 7.11s
+2026-02-11 12:33:22,455 | INFO | Batch 300 | Loss: 0.1159 | Correct: 122/128 | Elapsed Time: 7.16s
+2026-02-11 12:33:28,929 | INFO | Epoch [82/100] - Loss: 0.1248 | Correct: 47748/50000 (95.50%, 27.93s)
+2026-02-11 12:33:31,517 | INFO | Validation - Loss: 0.4651 | Correct: 8732/10000 (87.32%, 2.59s)
+2026-02-11 12:33:38,652 | INFO | Batch 100 | Loss: 0.1696 | Correct: 120/128 | Elapsed Time: 7.13s
+2026-02-11 12:33:45,788 | INFO | Batch 200 | Loss: 0.0868 | Correct: 123/128 | Elapsed Time: 7.14s
+2026-02-11 12:33:53,009 | INFO | Batch 300 | Loss: 0.1123 | Correct: 121/128 | Elapsed Time: 7.22s
+2026-02-11 12:33:59,496 | INFO | Epoch [83/100] - Loss: 0.1261 | Correct: 47765/50000 (95.53%, 27.98s)
+2026-02-11 12:34:02,077 | INFO | Validation - Loss: 0.4613 | Correct: 8745/10000 (87.45%, 2.58s)
+2026-02-11 12:34:09,189 | INFO | Batch 100 | Loss: 0.0807 | Correct: 124/128 | Elapsed Time: 7.11s
+2026-02-11 12:34:16,324 | INFO | Batch 200 | Loss: 0.1478 | Correct: 123/128 | Elapsed Time: 7.14s
+2026-02-11 12:34:23,420 | INFO | Batch 300 | Loss: 0.0962 | Correct: 120/128 | Elapsed Time: 7.10s
+2026-02-11 12:34:29,882 | INFO | Epoch [84/100] - Loss: 0.1248 | Correct: 47801/50000 (95.60%, 27.80s)
+2026-02-11 12:34:32,463 | INFO | Validation - Loss: 0.4664 | Correct: 8745/10000 (87.45%, 2.58s)
+2026-02-11 12:34:39,651 | INFO | Batch 100 | Loss: 0.1028 | Correct: 123/128 | Elapsed Time: 7.18s
+2026-02-11 12:34:46,780 | INFO | Batch 200 | Loss: 0.1194 | Correct: 123/128 | Elapsed Time: 7.13s
+2026-02-11 12:34:53,890 | INFO | Batch 300 | Loss: 0.1564 | Correct: 122/128 | Elapsed Time: 7.11s
+2026-02-11 12:35:00,377 | INFO | Epoch [85/100] - Loss: 0.1247 | Correct: 47766/50000 (95.53%, 27.91s)
+2026-02-11 12:35:02,961 | INFO | Validation - Loss: 0.4677 | Correct: 8732/10000 (87.32%, 2.58s)
+2026-02-11 12:35:10,098 | INFO | Batch 100 | Loss: 0.0507 | Correct: 127/128 | Elapsed Time: 7.13s
+2026-02-11 12:35:17,223 | INFO | Batch 200 | Loss: 0.0766 | Correct: 125/128 | Elapsed Time: 7.12s
+2026-02-11 12:35:24,307 | INFO | Batch 300 | Loss: 0.1463 | Correct: 121/128 | Elapsed Time: 7.08s
+2026-02-11 12:35:30,751 | INFO | Epoch [86/100] - Loss: 0.1224 | Correct: 47798/50000 (95.60%, 27.79s)
+2026-02-11 12:35:33,333 | INFO | Validation - Loss: 0.4655 | Correct: 8740/10000 (87.40%, 2.58s)
+2026-02-11 12:35:40,444 | INFO | Batch 100 | Loss: 0.1072 | Correct: 123/128 | Elapsed Time: 7.11s
+2026-02-11 12:35:47,549 | INFO | Batch 200 | Loss: 0.0988 | Correct: 122/128 | Elapsed Time: 7.11s
+2026-02-11 12:35:54,643 | INFO | Batch 300 | Loss: 0.1361 | Correct: 120/128 | Elapsed Time: 7.09s
+2026-02-11 12:36:01,118 | INFO | Epoch [87/100] - Loss: 0.1237 | Correct: 47775/50000 (95.55%, 27.78s)
+2026-02-11 12:36:03,667 | INFO | Validation - Loss: 0.4654 | Correct: 8742/10000 (87.42%, 2.55s)
+2026-02-11 12:36:10,814 | INFO | Batch 100 | Loss: 0.1546 | Correct: 120/128 | Elapsed Time: 7.14s
+2026-02-11 12:36:18,010 | INFO | Batch 200 | Loss: 0.0997 | Correct: 121/128 | Elapsed Time: 7.20s
+2026-02-11 12:36:25,073 | INFO | Batch 300 | Loss: 0.1408 | Correct: 123/128 | Elapsed Time: 7.06s
+2026-02-11 12:36:31,535 | INFO | Epoch [88/100] - Loss: 0.1221 | Correct: 47809/50000 (95.62%, 27.86s)
+2026-02-11 12:36:34,086 | INFO | Validation - Loss: 0.4678 | Correct: 8739/10000 (87.39%, 2.55s)
+2026-02-11 12:36:41,202 | INFO | Batch 100 | Loss: 0.0663 | Correct: 126/128 | Elapsed Time: 7.11s
+2026-02-11 12:36:48,336 | INFO | Batch 200 | Loss: 0.0690 | Correct: 125/128 | Elapsed Time: 7.13s
+2026-02-11 12:36:55,430 | INFO | Batch 300 | Loss: 0.0608 | Correct: 125/128 | Elapsed Time: 7.09s
+2026-02-11 12:37:01,894 | INFO | Epoch [89/100] - Loss: 0.1199 | Correct: 47876/50000 (95.75%, 27.80s)
+2026-02-11 12:37:04,448 | INFO | Validation - Loss: 0.4711 | Correct: 8717/10000 (87.17%, 2.55s)
+2026-02-11 12:37:11,582 | INFO | Batch 100 | Loss: 0.0877 | Correct: 124/128 | Elapsed Time: 7.13s
+2026-02-11 12:37:18,763 | INFO | Batch 200 | Loss: 0.1681 | Correct: 122/128 | Elapsed Time: 7.18s
+2026-02-11 12:37:25,880 | INFO | Batch 300 | Loss: 0.1977 | Correct: 121/128 | Elapsed Time: 7.12s
+2026-02-11 12:37:32,354 | INFO | Epoch [90/100] - Loss: 0.1206 | Correct: 47894/50000 (95.79%, 27.90s)
+2026-02-11 12:37:34,938 | INFO | Validation - Loss: 0.4712 | Correct: 8732/10000 (87.32%, 2.58s)
+2026-02-11 12:37:42,110 | INFO | Batch 100 | Loss: 0.1386 | Correct: 122/128 | Elapsed Time: 7.17s
+2026-02-11 12:37:49,224 | INFO | Batch 200 | Loss: 0.0980 | Correct: 124/128 | Elapsed Time: 7.11s
+2026-02-11 12:37:56,311 | INFO | Batch 300 | Loss: 0.0483 | Correct: 126/128 | Elapsed Time: 7.09s
+2026-02-11 12:38:02,752 | INFO | Epoch [91/100] - Loss: 0.1194 | Correct: 47850/50000 (95.70%, 27.81s)
+2026-02-11 12:38:05,301 | INFO | Validation - Loss: 0.4717 | Correct: 8749/10000 (87.49%, 2.55s)
+2026-02-11 12:38:05,399 | INFO | New best model saved at epoch 91 with Top1 Acc: 87.49%
+2026-02-11 12:38:12,513 | INFO | Batch 100 | Loss: 0.0846 | Correct: 125/128 | Elapsed Time: 7.11s
+2026-02-11 12:38:19,612 | INFO | Batch 200 | Loss: 0.2192 | Correct: 119/128 | Elapsed Time: 7.10s
+2026-02-11 12:38:26,716 | INFO | Batch 300 | Loss: 0.1559 | Correct: 118/128 | Elapsed Time: 7.10s
+2026-02-11 12:38:33,169 | INFO | Epoch [92/100] - Loss: 0.1183 | Correct: 47854/50000 (95.71%, 27.77s)
+2026-02-11 12:38:35,737 | INFO | Validation - Loss: 0.4711 | Correct: 8736/10000 (87.36%, 2.57s)
+2026-02-11 12:38:42,890 | INFO | Batch 100 | Loss: 0.0747 | Correct: 125/128 | Elapsed Time: 7.15s
+2026-02-11 12:38:49,981 | INFO | Batch 200 | Loss: 0.1570 | Correct: 120/128 | Elapsed Time: 7.09s
+2026-02-11 12:38:57,157 | INFO | Batch 300 | Loss: 0.1168 | Correct: 120/128 | Elapsed Time: 7.18s
+2026-02-11 12:39:03,667 | INFO | Epoch [93/100] - Loss: 0.1191 | Correct: 47870/50000 (95.74%, 27.93s)
+2026-02-11 12:39:06,261 | INFO | Validation - Loss: 0.4730 | Correct: 8742/10000 (87.42%, 2.59s)
+2026-02-11 12:39:13,447 | INFO | Batch 100 | Loss: 0.0972 | Correct: 125/128 | Elapsed Time: 7.18s
+2026-02-11 12:39:20,575 | INFO | Batch 200 | Loss: 0.0899 | Correct: 123/128 | Elapsed Time: 7.13s
+2026-02-11 12:39:27,703 | INFO | Batch 300 | Loss: 0.0775 | Correct: 125/128 | Elapsed Time: 7.13s
+2026-02-11 12:39:34,201 | INFO | Epoch [94/100] - Loss: 0.1184 | Correct: 47870/50000 (95.74%, 27.94s)
+2026-02-11 12:39:36,842 | INFO | Validation - Loss: 0.4751 | Correct: 8739/10000 (87.39%, 2.64s)
+2026-02-11 12:39:43,965 | INFO | Batch 100 | Loss: 0.1187 | Correct: 120/128 | Elapsed Time: 7.12s
+2026-02-11 12:39:51,059 | INFO | Batch 200 | Loss: 0.2201 | Correct: 121/128 | Elapsed Time: 7.09s
+2026-02-11 12:39:58,190 | INFO | Batch 300 | Loss: 0.0858 | Correct: 123/128 | Elapsed Time: 7.13s
+2026-02-11 12:40:04,681 | INFO | Epoch [95/100] - Loss: 0.1182 | Correct: 47881/50000 (95.76%, 27.83s)
+2026-02-11 12:40:07,281 | INFO | Validation - Loss: 0.4726 | Correct: 8746/10000 (87.46%, 2.60s)
+2026-02-11 12:40:14,392 | INFO | Batch 100 | Loss: 0.1221 | Correct: 124/128 | Elapsed Time: 7.11s
+2026-02-11 12:40:21,487 | INFO | Batch 200 | Loss: 0.1032 | Correct: 124/128 | Elapsed Time: 7.10s
+2026-02-11 12:40:28,623 | INFO | Batch 300 | Loss: 0.0539 | Correct: 127/128 | Elapsed Time: 7.14s
+2026-02-11 12:40:35,135 | INFO | Epoch [96/100] - Loss: 0.1187 | Correct: 47865/50000 (95.73%, 27.85s)
+2026-02-11 12:40:37,715 | INFO | Validation - Loss: 0.4713 | Correct: 8743/10000 (87.43%, 2.58s)
+2026-02-11 12:40:44,842 | INFO | Batch 100 | Loss: 0.1346 | Correct: 121/128 | Elapsed Time: 7.12s
+2026-02-11 12:40:51,979 | INFO | Batch 200 | Loss: 0.0784 | Correct: 126/128 | Elapsed Time: 7.14s
+2026-02-11 12:40:59,102 | INFO | Batch 300 | Loss: 0.1299 | Correct: 122/128 | Elapsed Time: 7.12s
+2026-02-11 12:41:05,563 | INFO | Epoch [97/100] - Loss: 0.1161 | Correct: 47908/50000 (95.82%, 27.84s)
+2026-02-11 12:41:08,162 | INFO | Validation - Loss: 0.4747 | Correct: 8737/10000 (87.37%, 2.60s)
+2026-02-11 12:41:15,298 | INFO | Batch 100 | Loss: 0.1604 | Correct: 123/128 | Elapsed Time: 7.13s
+2026-02-11 12:41:22,416 | INFO | Batch 200 | Loss: 0.1114 | Correct: 126/128 | Elapsed Time: 7.12s
+2026-02-11 12:41:29,521 | INFO | Batch 300 | Loss: 0.0560 | Correct: 125/128 | Elapsed Time: 7.10s
+2026-02-11 12:41:35,943 | INFO | Epoch [98/100] - Loss: 0.1191 | Correct: 47833/50000 (95.67%, 27.78s)
+2026-02-11 12:41:38,534 | INFO | Validation - Loss: 0.4755 | Correct: 8742/10000 (87.42%, 2.59s)
+2026-02-11 12:41:45,648 | INFO | Batch 100 | Loss: 0.1422 | Correct: 123/128 | Elapsed Time: 7.11s
+2026-02-11 12:41:52,810 | INFO | Batch 200 | Loss: 0.1328 | Correct: 119/128 | Elapsed Time: 7.16s
+2026-02-11 12:41:59,938 | INFO | Batch 300 | Loss: 0.1016 | Correct: 124/128 | Elapsed Time: 7.13s
+2026-02-11 12:42:06,476 | INFO | Epoch [99/100] - Loss: 0.1150 | Correct: 47928/50000 (95.86%, 27.94s)
+2026-02-11 12:42:09,052 | INFO | Validation - Loss: 0.4721 | Correct: 8744/10000 (87.44%, 2.58s)
+2026-02-11 12:42:16,227 | INFO | Batch 100 | Loss: 0.0940 | Correct: 123/128 | Elapsed Time: 7.17s
+2026-02-11 12:42:23,361 | INFO | Batch 200 | Loss: 0.1666 | Correct: 119/128 | Elapsed Time: 7.13s
+2026-02-11 12:42:30,549 | INFO | Batch 300 | Loss: 0.1446 | Correct: 120/128 | Elapsed Time: 7.19s
+2026-02-11 12:42:37,080 | INFO | Epoch [100/100] - Loss: 0.1197 | Correct: 47798/50000 (95.60%, 28.02s)
+2026-02-11 12:42:39,634 | INFO | Validation - Loss: 0.4763 | Correct: 8741/10000 (87.41%, 2.55s)
+2026-02-11 12:42:39,638 | INFO | Training complete.
+2026-02-11 12:42:39,687 | INFO | Final model saved to ./checkpoints/mobilenetv1_fp_final_20260211_115132.pt
